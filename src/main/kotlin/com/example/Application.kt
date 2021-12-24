@@ -15,8 +15,8 @@ fun Application.module() {
         modules(mainModule)
     }
 
-    configureRouting()
     configureSockets()
+    configureRouting()
     configureSerialization()
     configureMonitoring()
     configureSecurity()
